@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="materialize/css/materialize.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+	<title>SmashFaces</title>
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<h1>Smash Faces</h1>
+					<div class="divider"></div>
+				</div>
+			</div>
+		</div>	
+	</header>
+
+	<section>
+		<div class="container">
+		<div class="row section">
+			<div class="col-12">
+				<p>
+					Bienvenidas al juego de Smash Faces, tu misión es poder identificar a todas tus compañeras de clase ingresando para ello su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s6">
+			  	<select class="browser-default" id="sede">
+			  		<option value="" disabled selected>Escoge tu sede</option>
+				    <option value="1">México</option>
+				    <option value="2">Perú</option>
+				    <option value="3">Chile</option>
+			 	 </select>
+		 	 </div>
+  			<div class="col s6 right-align">
+  				<h6>Puntos:<h6 id="puntos" class="inline">5</h6> puntos </h6>
+  			</div>
+		</div>
+		<div class="row">
+			<div class="col s12">
+				<div class="rounded">
+					<div class="col s6 borderight center">
+						<div class="picture center">
+							<img src="" alt="" id="foto">
+						</div>
+					</div>
+					<div class="col s6">
+						<div class="row">
+							<div class="input-field col 12">
+								<h6 for="first_name">Ingresa su nombre</h6>
+	          					<input id="first_name" type="text" class="validate">
+	          					<button class="waves-effect waves-light" id="comprobar">Comprobar</button>	
+	        				</div>
+	        			</div>
+	        			<div class="row">
+	        				<div class="col 12">
+	        					<div>
+	        						<h5 id="cuenta"></h5>
+	        					</div>
+	        				</div>
+	        			</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	 <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+ 	<script src="materialize/js/materialize.js"></script>	
+
+</body>
+</html>
